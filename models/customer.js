@@ -78,6 +78,11 @@ class Customer {
             );
         }
     }
+    //getters --> access properties
+    //setters --> change(mutate) properties
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
 }
 
 module.exports = Customer;
